@@ -61,6 +61,13 @@ const INITIAL_STATE = {
   // Make sure there's always at least one cap
   caps: [
     {
+      name: 'platformName',
+      value: 'android',
+      type: 'text',
+    },
+    {
+      name: 'appium:automationName',
+      value: 'uiautomator2',
       type: 'text',
     },
   ],
